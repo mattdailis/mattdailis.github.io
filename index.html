@@ -1,4 +1,110 @@
-<html>
-  <head></head>
-  <body>Hello World</body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+window.addEventListener("load", windowLoadHandler, false);
+
+function windowLoadHandler() {
+	app();
+}
+
+function app() {
+	var productSearchField = document.getElementById("productSearch");
+	var searchGoButton = document.getElementById("searchButton");
+	
+	init();
+	
+	function init() {
+		setUpSearch();
+	}
+	
+	function setUpSearch() {
+		//productSearchField.addEventListener("textInput", searchInputListener, false);
+		productSearchField.addEventListener("keypress", checkSearchFieldForEnterKey, false);
+		searchGoButton.addEventListener("mousedown", userSearchRequest, false);
+	}
+	
+	function userSearchRequest(evt) {
+		productSearch(productSearchField.value);
+	}
+	
+	function checkSearchFieldForEnterKey(evt) {
+		var e = evt || window.event;
+		var charCode = e.which || e.keyCode;
+	
+		if ( charCode == '13' ) {
+		  // Enter pressed
+		  productSearch(productSearchField.value);
+		  return false; //prevents default behavior, don't want enter key to actually be typed in the field.
+		}
+	}
+	
+	function productSearch(searchString) {
+		var xhr = new XMLHttpRequest();
+		var key = "ahrADPMvDeUMtXR5CFwN5taRsct7QSgFR2fmUySG";
+		var endpointURL = "http://api.v3.factual.com/t/products-cpg";
+	
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				processSearchResponse(xhr);
+			}
+		}
+		xhr.open("GET", endpointURL + "?q=" + searchString + "&KEY=" + key, true);
+		xhr.send();
+	}
+	
+	function  processSearchResponse(xhr) {
+		console.log(xhr.status);
+		console.log(xhr.statusText);
+		//console.log(xhr.readyState);
+		//console.log(xhr.responseText);
+	
+		var responseJSON = JSON.parse(xhr.responseText);
+		printProducts(responseJSON.response.data);
+	}
+	
+	function printProducts(productArray) {
+		var numProducts = productArray.length;
+		var containerDiv = document.getElementById("productListContainer");
+		//var list = document.createElement("UL");
+		var list = document.getElementById("productList");
+		clearList(list);
+		containerDiv.appendChild(list);
+		for (var i = 0; i < numProducts; i++) {
+			var li = document.createElement("LI");
+			li.innerHTML = productArray[i].product_name;
+			list.appendChild(li);
+		}
+		console.log("num children " + list.children.length);
+	}
+	
+	function clearList(ul) {
+		var numChildren = ul.children.length;
+		for (var i = numChildren-1; i > -1; i--) {
+			ul.removeChild(ul.children[i]);
+		}
+	}
+}
+    
+</script>
+<title>API Testing</title>
+<style type="text/css">
+body {
+	background-color: #222222;
+	color: #eeeeee;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <input type="search" id="productSearch" value="testing"/>
+  <input type="button" id="searchButton" value="GO"/>
+</div>
+<div id="productListContainer"><ul id="productList"></ul></div>
+</body>
 </html>

@@ -21,7 +21,7 @@ date_format = "Jan 2006"
   title = "Software Contractor"
   company = "NASA Jet Propulsion Laboratory"
   company_url = "https://jpl.nasa.gov"
-  location = "Pasadena, California"
+  location = "Pasadena, California (working remotely from Boston)"
   date_start = "2019-07-01"
   date_end = ""
   description = """
@@ -33,12 +33,12 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Teaching Assistant"
-  company = "Northeastern University"
+  company = "[Northeastern University - CS 4410: Compiler Design](https://course.ccs.neu.edu/cs4410sp20/)"
   company_url = "khoury.northeastern.edu"
   location = "Boston, Massachussets"
   date_start = "2019-01-01"
   date_end = "2019-04-15"
-  description = """Taught compiler design"""
+  description = """Helped students implement a series of compilers of increasing complexity in OCaml, starting from arithmetic and working up to higher order functions and garbage collection"""
   
   
 [[experience]]
@@ -48,7 +48,7 @@ date_format = "Jan 2006"
   location = "Boston, Massachussets"
   date_start = "2018-07-01"
   date_end = "2018-12-31"
-  description = """Implemented a reservation web app for self-driving cars from the ground up"""
+  description = """Implemented a web app from the ground up to allow users to reserve rides in self-driving cars"""
 
 [[experience]]
   title = "Robotics Co-op"

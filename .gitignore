@@ -3,4 +3,4 @@
 
 # Hugo
 resources/
-public/
+# public/  # Allow committing public for serving on Github

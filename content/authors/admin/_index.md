@@ -10,12 +10,10 @@ authors:
 superuser: true
 
 # Role/position
-role: Candidate for Masters in Computer Science
+role: Engineering Applications Software Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Northeastern University
-  url: "khoury.northeastern.edu"
 - name: NASA Jet Propulsion Laboratory
   url: "https://jpl.nasa.gov"
 
@@ -24,7 +22,7 @@ bio: Insert inspirational quote here
 
 interests:
   - Compilers
-  - Computational Acoustics
+  # - Computational Acoustics
   - Linguistics
   - Human-robot interfaces
   - Data mining
@@ -34,7 +32,7 @@ interests:
 
 education:
   courses:
-  - course: BS in Computer Science
+  - course: BS/MS in Computer Science
     institution: Northeastern University
     year: 2020
   <!-- - course: MEng in Artificial Intelligence -->
@@ -51,7 +49,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:mdailis@ccs.neu.edu" # '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:dailis.m@northeastern.edu" # '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/matthew-dailis-064615143/
@@ -77,6 +75,6 @@ user_groups:
 - Visitors
 ---
 
-I am a student of computer science at Northeastern University, where my academic interests include compiler design and implementation, functional programming, data analysis, and robotics. I currently work for the Mars Science Laboratory project at NASA JPL, helping ensure the safety of the Curiosity Rover on Mars.
+I am a software developer at NASA JPL, where I work on [mission planning software](https://github.com/NASA-AMMOS/aerie) as well as support the Curiosity rover mission. My interests include programming language design and implementation, functional programming, human-computer interaction, and robotics.
 
 

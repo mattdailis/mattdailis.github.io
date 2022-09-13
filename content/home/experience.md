@@ -18,6 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Engineering Applications Software Engineer"
+  company = "NASA Jet Propulsion Laboratory"
+  company_url = "https://jpl.nasa.gov"
+  location = "Pasadena, California (working remotely)"
+  date_start = "2020-10-01"
+  date_end = ""
+  description = """
+  Responsibilities include:
+  
+  * Maintaining ground software for a Mars rover
+  * Performing analyses to diagnose and mitigate problems with the Curiosity rover
+  * Developing a new mission planning application for the Europa Clipper mission
+  """
+
+[[experience]]
   title = "Software Contractor"
   company = "NASA Jet Propulsion Laboratory"
   company_url = "https://jpl.nasa.gov"

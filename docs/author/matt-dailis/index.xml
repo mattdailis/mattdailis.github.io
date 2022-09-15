@@ -5,12 +5,30 @@
     <link>/author/matt-dailis/</link>
       <atom:link href="/author/matt-dailis/index.xml" rel="self" type="application/rss+xml" />
     <description>Matt Dailis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 00:02:52 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Matt Dailis</title>
       <link>/author/matt-dailis/</link>
     </image>
+    
+    <item>
+      <title>My intent for this website</title>
+      <link>/post/statement-of-intent/</link>
+      <pubDate>Tue, 13 Sep 2022 00:02:52 -0400</pubDate>
+      <guid>/post/statement-of-intent/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t expect to update this page regularly - but in my day-to-day endeavors to learn new things,
+sometimes I feel like it would be beneficial to test these learnings and try to write about them.&lt;/p&gt;
+&lt;p&gt;My hope is that this blog will be these things for me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A place to track interesting things I&amp;rsquo;ve read/watched/listened to&lt;/li&gt;
+&lt;li&gt;An outlet for my desire to teach people things, without needing to bother any real people&lt;/li&gt;
+&lt;li&gt;A place to practice writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If, in this blog for myself, you find something that you find interesting, or helps you learn something,
+great!&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

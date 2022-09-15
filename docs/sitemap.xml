@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-09-13T00:02:52-04:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2020-04-17T00:11:51-04:00</lastmod>
+    <lastmod>2022-09-13T00:02:52-04:00</lastmod>
+  </url><url>
+    <loc>/author/matt-dailis/</loc>
+    <lastmod>2022-09-13T00:02:52-04:00</lastmod>
+  </url><url>
+    <loc>/post/statement-of-intent/</loc>
+    <lastmod>2022-09-13T00:02:52-04:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-09-13T00:02:52-04:00</lastmod>
+  </url><url>
+    <loc>/bibliography/</loc>
+    <lastmod>2022-09-13T00:00:00+01:00</lastmod>
   </url><url>
     <loc>/project/my-project-name/</loc>
     <lastmod>2020-04-17T00:11:51-04:00</lastmod>
@@ -11,36 +26,14 @@
     <loc>/project/</loc>
     <lastmod>2020-04-17T00:11:51-04:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/category/cattegorry/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/author/me/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/post/my-first-post/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/tag/tagggg/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-17T00:02:52-04:00</lastmod>
-  </url><url>
-    <loc>/author/matt-dailis/</loc>
   </url><url>
     <loc>/publication_types/</loc>
   </url><url>
     <loc>/publication/</loc>
   </url><url>
     <loc>/talk/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

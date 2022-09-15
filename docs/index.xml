@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Matt Dailis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2020 00:11:51 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Sep 2022 00:02:52 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Matt Dailis</title>
@@ -13,20 +13,76 @@
     </image>
     
     <item>
+      <title>My intent for this website</title>
+      <link>/post/statement-of-intent/</link>
+      <pubDate>Tue, 13 Sep 2022 00:02:52 -0400</pubDate>
+      <guid>/post/statement-of-intent/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t expect to update this page regularly - but in my day-to-day endeavors to learn new things,
+sometimes I feel like it would be beneficial to test these learnings and try to write about them.&lt;/p&gt;
+&lt;p&gt;My hope is that this blog will be these things for me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A place to track interesting things I&amp;rsquo;ve read/watched/listened to&lt;/li&gt;
+&lt;li&gt;An outlet for my desire to teach people things, without needing to bother any real people&lt;/li&gt;
+&lt;li&gt;A place to practice writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If, in this blog for myself, you find something that you find interesting, or helps you learn something,
+great!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bibliography</title>
+      <link>/bibliography/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0100</pubDate>
+      <guid>/bibliography/</guid>
+      <description>&lt;p&gt;Here, I hope to keep a running list of things I&amp;rsquo;m reading/watching, with short sentence summaries, explanations, or recommendations for each.&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;Purely Functional Data Structures (Chris Okasaki)&lt;/summary&gt;
+  I read through chapter 3. This dissertation shows
+  that it is possible to perform &#34;amortized&#34; runtime analysis on purely functional data structures if
+  your langauge supports laziness and memoization. I found the first few chapters easy to follow and
+  thought he did a great job of explaining amortized analysis (I had never understood it before). I followed
+  along in OCaml (turns out there&#39;s a `Lazy` module you can import!) I started to lose steam on the purely 
+  functional &#34;Bankers method&#34;.
+  &lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;&#34;Compositional&#34; Compiler Correctness (Amal Ahmed)&lt;/summary&gt;
+I&#39;ve been a fan of Amal&#39;s work for a long time, and I&#39;ve long wanted to dig into some of it, but was always intimidated. This presentation is a very accessible overview of the challenges of proving things about compilers when you don&#39;t know a priori what they will be linked with.
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Types and Programming Languages (Benjamin Pierce)&lt;/summary&gt;
+ This book is a pre-requisite to those who want to study programming languages at Northeastern. I got it
+ for myself as a graduation present, and have been flipping through chapters at random ever since.
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Computer Architecture: A Quantitative Approach () - I&#39;ve read diligently up to Chapter 4&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Clean Code - I read entirely&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Extreme Programming Explained - I read half of&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Agile Principles - &lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Working Effectively With Legacy Code&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Domain Driven Design in F# - I read in its entirety&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Tiger Book (Appel)&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Postgres Internals https://postgrespro.com/community/books/internals&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;[Programming as Theory Building](https://gist.github.com/onlurking/fc5c81d18cfce9ff81bc968a7f342fb1)&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;[The Documentation System](https://documentation.divio.com/)&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Surely You&#39;re Joking, Mr. Feynman&lt;/summary&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Thinking Fast and Slow&lt;/summary&gt;&lt;/details&gt;
+&lt;p&gt;Things I haven&amp;rsquo;t read, but would like to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pragmatic Programmer&lt;/li&gt;
+&lt;li&gt;The Art of Computer Programming&lt;/li&gt;
+&lt;li&gt;Black Book of OS&lt;/li&gt;
+&lt;li&gt;fasterthanli.me on linking and loading&lt;/li&gt;
+&lt;li&gt;The Little Typer&lt;/li&gt;
+&lt;li&gt;The Dragon Book&lt;/li&gt;
+&lt;li&gt;Peak: Secrets of the New Science of Expertise - recommended by a coworker&lt;/li&gt;
+&lt;li&gt;Code&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My Project Name</title>
       <link>/project/my-project-name/</link>
       <pubDate>Fri, 17 Apr 2020 00:11:51 -0400</pubDate>
       <guid>/project/my-project-name/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/post/my-first-post/</link>
-      <pubDate>Fri, 17 Apr 2020 00:02:52 -0400</pubDate>
-      <guid>/post/my-first-post/</guid>
-      <description>&lt;p&gt;This is the text of the post, presumably?&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -27,10 +27,11 @@
   
     
   
-  <meta name="description" content="Engineering Applications Software Engineer">
+  <meta name="description" content="Here, I hope to keep a running list of things I&rsquo;m reading/watching, with short sentence summaries, explanations, or recommendations for each.
+Purely Functional Data Structures (Chris Okasaki) I read through chapter 3.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/">
+  <link rel="alternate" hreflang="en-us" href="/bibliography/">
 
   
 
@@ -212,14 +213,12 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Matt Dailis">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="/post/">
+  <link rel="canonical" href="/bibliography/">
 
   
   
@@ -235,29 +234,35 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Matt Dailis">
-  <meta property="og:url" content="/post/">
-  <meta property="og:title" content="Posts | Matt Dailis">
-  <meta property="og:description" content="Engineering Applications Software Engineer"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="og:url" content="/bibliography/">
+  <meta property="og:title" content="Bibliography | Matt Dailis">
+  <meta property="og:description" content="Here, I hope to keep a running list of things I&rsquo;m reading/watching, with short sentence summaries, explanations, or recommendations for each.
+Purely Functional Data Structures (Chris Okasaki) I read through chapter 3."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-09-13T00:02:52-04:00">
+    
+      <meta property="article:published_time" content="2022-09-13T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2022-09-13T00:00:00&#43;01:00">
   
 
   
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Posts | Matt Dailis</title>
+
+
+  <title>Bibliography | Matt Dailis</title>
 
 </head>
 
@@ -436,7 +441,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/bibliography"><span>Bibliography</span></a>
+          <a class="nav-link  active" href="/bibliography"><span>Bibliography</span></a>
         </li>
 
         
@@ -482,112 +487,44 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Bibliography</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-
-  
-
-  
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/statement-of-intent/" >My intent for this website</a>
-    </h3>
-
-    
-    <div class="article-style">
-      I&rsquo;d like a place where I can write down my thoughts and share them with others.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
 
   
   
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/author/matt-dailis/">Matt Dailis</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Sep 13, 2022
-  </span>
-  
 
   
 
   
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
+
   
 
   
@@ -599,25 +536,95 @@
 
 </div>
 
-      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Here, I hope to keep a running list of things I&rsquo;m reading/watching, with short sentence summaries, explanations, or recommendations for each.</p>
+<details><summary>Purely Functional Data Structures (Chris Okasaki)</summary>
+  I read through chapter 3. This dissertation shows
+  that it is possible to perform "amortized" runtime analysis on purely functional data structures if
+  your langauge supports laziness and memoization. I found the first few chapters easy to follow and
+  thought he did a great job of explaining amortized analysis (I had never understood it before). I followed
+  along in OCaml (turns out there's a `Lazy` module you can import!) I started to lose steam on the purely 
+  functional "Bankers method".
+  </details>
+<details><summary>"Compositional" Compiler Correctness (Amal Ahmed)</summary>
+I've been a fan of Amal's work for a long time, and I've long wanted to dig into some of it, but was always intimidated. This presentation is a very accessible overview of the challenges of proving things about compilers when you don't know a priori what they will be linked with.
+</details>
+<details><summary>Types and Programming Languages (Benjamin Pierce)</summary>
+ This book is a pre-requisite to those who want to study programming languages at Northeastern. I got it
+ for myself as a graduation present, and have been flipping through chapters at random ever since.
+</details>
+<details><summary>Computer Architecture: A Quantitative Approach () - I've read diligently up to Chapter 4</summary></details>
+<details><summary>Clean Code - I read entirely</summary></details>
+<details><summary>Extreme Programming Explained - I read half of</summary></details>
+<details><summary>Agile Principles - </summary></details>
+<details><summary>Working Effectively With Legacy Code</summary></details>
+<details><summary>Domain Driven Design in F# - I read in its entirety</summary></details>
+<details><summary>Tiger Book (Appel)</summary></details>
+<details><summary>Postgres Internals https://postgrespro.com/community/books/internals</summary></details>
+<details><summary>[Programming as Theory Building](https://gist.github.com/onlurking/fc5c81d18cfce9ff81bc968a7f342fb1)</summary></details>
+<details><summary>[The Documentation System](https://documentation.divio.com/)</summary></details>
+<details><summary>Surely You're Joking, Mr. Feynman</summary></details>
+<details><summary>Thinking Fast and Slow</summary></details>
+<p>Things I haven&rsquo;t read, but would like to:</p>
+<ul>
+<li>The Pragmatic Programmer</li>
+<li>The Art of Computer Programming</li>
+<li>Black Book of OS</li>
+<li>fasterthanli.me on linking and loading</li>
+<li>The Little Typer</li>
+<li>The Dragon Book</li>
+<li>Peak: Secrets of the New Science of Expertise - recommended by a coworker</li>
+<li>Code</li>
+</ul>
+
     </div>
 
     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-
-  
-
-
-</div>
+</article>
 
       
 

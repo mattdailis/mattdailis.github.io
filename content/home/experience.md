@@ -29,16 +29,16 @@ date_format = "Jan 2006"
   
   * Maintaining ground software for a Mars rover
   * Performing analyses to diagnose and mitigate problems with the Curiosity rover
-  * Developing a new mission planning application for the Europa Clipper mission
+  * Developing a mission planning application for use on multiple missions, including Europa Clipper
   """
 
 [[experience]]
   title = "Software Contractor"
   company = "NASA Jet Propulsion Laboratory"
   company_url = "https://jpl.nasa.gov"
-  location = "Pasadena, California (working remotely from Boston)"
+  location = "Pasadena, California"
   date_start = "2019-07-01"
-  date_end = ""
+  date_end = "2020-09-27"
   description = """
   Responsibilities include:
   

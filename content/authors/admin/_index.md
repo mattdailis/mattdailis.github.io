@@ -18,7 +18,7 @@ organizations:
   url: "https://jpl.nasa.gov"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert inspirational quote here
+# bio: Insert inspirational quote here
 
 interests:
   - Compilers
@@ -77,4 +77,11 @@ user_groups:
 
 I am a software developer at NASA JPL, where I work on [mission planning software](https://github.com/NASA-AMMOS/aerie) as well as support the Curiosity rover mission. My interests include programming language design and implementation, functional programming, human-computer interaction, and robotics.
 
+#### I'm currently listening to:
+- [Signals and Threads](https://signalsandthreads.com/) - Yaron Minsky is really great at explaining functional programming concepts, as well as general software engineering.
+- [Corecursive](https://corecursive.com/) - Adam Gordon Bell interviews an array of fascinating people from various walks of software.
 
+#### Other blogs to read:
+- [Joel on Software](https://www.joelonsoftware.com/) - Joel Spolsky, of Stack Overflow fame, has a lot of great stories and strong opinions about software.
+- [Hillel Wayne](https://www.hillelwayne.com/) - Hillel has a lot of introspective and philosophical thoughts on formal methods and how we teach programming.
+- [Jonathan Castello](http://jonathan.com/) - A friend of mine, conversations with whom have shaped my worldview on software and computer science.
